@@ -1,0 +1,120 @@
+<html>
+<head>
+<title>CONTACT US</title>
+<script src="./../js/jquery-2.2.0.js"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="./../css/materialize.min.css"  media="screen,projection"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<script type="text/javascript" src="./../js/materialize.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col m10 offset-m1 s12">
+            <h2 class="center-align">Contact Form</h2>
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col m6 s12">
+                            <i class="small material-icons prefix">perm_identity</i>
+                            <input id="first_name" type="text" class="validate">
+                            <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col m6 s12">
+                            <i class="small material-icons prefix">perm_identity</i>
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col m6 s12">
+                          <i class="small material-icons prefix">email</i>
+                          <!--  <i class="mdi-content-mail prefix"></i>-->
+                            <input id="email" type="email" class="validate" required>
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="input-field col m6 s12">
+                            <!--<i class="mdi-maps-store-mall-directory prefix"></i>-->
+                              <i class="small material-icons prefix">work</i>
+                            <input id="company" type="text" class="validate">
+                            <label for="company">Company</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <i class="small material-icons prefix">message</i>
+                          <textarea id="message" class="materialize-textarea"></textarea>
+                          <label for="message">Message</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <i class="small material-icons prefix">payment</i>
+                          <label for="budget">Budget</label>
+                          <br/>
+                        </div>
+                        <div class="input-field col s12">
+                            <select class="browser-default" id="budget">
+                              <option value="" selected disabled>Choose your option</option>
+                              <option value="1">&lt; Rs 50000</option>
+                              <option value="2">Rs 20000 - 40000</option>
+                              <option value="3">&gt;Rs 20000</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <i class="small material-icons prefix">call_split</i>
+                          <label>How Did You Find Us?</label>
+                          <br/>
+                        </div>
+                        <div class="input-field col m3 s6 center-align">
+                          <input name="group1" type="radio" id="google" />
+                          <label for="google">Google</label>
+                        </div>
+                        <div class="input-field col m3 s6 center-align">
+                          <input name="group1" type="radio" id="customer" />
+                          <label for="customer">Customer</label>
+                        </div>
+                        <div class="input-field col m3 s6 center-align">
+                          <input name="group1" type="radio" id="store" />
+                          <label for="store">Store</label>
+                        </div>
+                        <div class="input-field col m3 s6 center-align">
+                          <input name="group1" type="radio" id="other" />
+                          <label for="other">Other</label>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                          <i class="small material-icons prefix">supervisor_account</i>
+                          <label>Communication Preferences</label>
+                          <br/>
+                        </div>
+                        <div class="input-field col m4 s12 center-align">
+                          <input name="group2" type="checkbox" id="emailComm" />
+                          <label for="emailComm">Email</label>
+                        </div>
+                        <div class="input-field col m4 s12 center-align">
+                          <input name="group2" type="checkbox" id="callComm" />
+                          <label for="callComm">Call Me</label>
+                        </div>
+                        <div class="input-field col m4 s12 center-align">
+                          <input name="group2" type="checkbox" id="newsletter" />
+                          <label for="newsletter">Newsletter</label>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="row">
+                        <div class="col m12">
+                         <p class="right-align"><button class="btn btn-large waves-effect waves-light" type="button" name="action">Send Message</button></p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

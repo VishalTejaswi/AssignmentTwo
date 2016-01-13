@@ -1,0 +1,44 @@
+@import url(http://fonts.googleapis.com/css?family=Metal+Mania);
+@import url('http://fonts.googleapis.com/css?family=Bad+Script');
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+*{padding:5px;}
+body {
+  background: url('http://hqwide.com/wallpapers/l/1920x1200/61/food_spice_1920x1200_60626.jpg');
+  background-size:100%;
+  padding: 10px;
+}
+p, h2,strong,li {  Font-family:'Bad Script';font-size:1.5em;}
+h1 {font-family:'Metal Mania';font-size:2.5em;}
+.recipe{width: 100% ;max-width:1000px;min-width:300px;margin-left: auto ;margin-right: auto ;border:solid 0px red;background-color: rgba(255, 255, 255, 0.8);}
+
+.recipe > recipe-top {
+  width: 60%;
+  padding: 0 10px; 
+}
+.recipe-top #toptext{display:inline-block;width:50%;float:left;}
+.recipe-top {border:solid 0px red;overflow:hidden;background-color: rgba(32, 150, 55, 0.6);}
+.recipe-top img {
+  width: 45%;
+  float:right;
+  padding:5px;
+}
+h2 {border-bottom:1px dotted;}
+.recipe-text {
+  width: 100%;
+}
+ul{text-align:center;}
+li {display: inline-block;; background-color: #20C1EA;padding: 5px 10px; margin:5px;  border-radius: 0.25em;width:auto;list-style:none;}
+
+
+@media screen and (max-width: 700px) {
+.recipe-top #toptext {
+        width: 100%;
+         }
+  .recipe-top img {
+        width: 98%;
+         }
+}
